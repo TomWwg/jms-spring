@@ -10,10 +10,11 @@ import javax.jms.*;
 /**
  * Created by wwg on 2017/11/6.
  */
-public class PrducerServiceImpl implements ProducerService {
+public class ProducerServiceImpl implements ProducerService {
 
     @Autowired
     JmsTemplate jmsTemplate;
+    //@Resource(name = "topicDestination")  主题模式
     @Resource(name = "queueDestination")
     Destination destination;
 
