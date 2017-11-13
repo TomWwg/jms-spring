@@ -1,0 +1,7 @@
+# Intellij
+*.iml
+*/*.iml
+
+*/.idea/
+.idea/
+.idea/workspace.xml/
